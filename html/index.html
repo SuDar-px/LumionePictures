@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="ThemeStarz">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<title>Lumione Pictures</title>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" class="has-loading-screen">
+    <div class="ts-page-wrapper" id="page-top">
+        <!--NAVIGATION ******************************************************************************************-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+            <div class="container">
+                <a class="navbar-brand ts-push-down__50 position-absolute ts-bottom__0 bg-white pb-0 ts-z-index__1 ts-scroll" href="#page-top">
+                    <img src="assets/img/Logo x64.png" alt="">
+                </a>
+                <!--end navbar-brand-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--end navbar-toggler-->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-block d-lg-flex ml-auto text-right">
+                        <a class="nav-item nav-link active ts-scroll" href="#page-top">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link ts-scroll" href="#my-services">About Us</a>
+                        <a class="nav-item nav-link ts-scroll" href="#about-me">Contact Information</a>
+                        <a class="nav-item nav-link ts-scroll" href="#my-skills">Why Choose Us</a>
+                        <a class="nav-item nav-link ts-scroll" href="#portfolio">Our Projects</a>
+                        <a class="nav-item nav-link ts-scroll" href="#testimonials">Clients</a>
+                        <a class="nav-item nav-link ts-scroll mr-2" href="#form-contact">Contact</a>
+                    </div>
+                    <!--end navbar-nav-->
+                </div>
+                <!--end collapse-->
+            </div>
+            <!--end container-->
+        </nav>
+        <!--end navbar-->
+        <!--*********************************************************************************************************-->
+        <!--************ HERO ***************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <div id="ts-hero" class="ts-animate-hero-items">
+
+            <!--HERO CONTENT ****************************************************************************************-->
+            <div class="container position-relative h-100 ts-align__vertical">
+                <div class="row w-100">
+                    <div class="col-md-8">
+                        <!--SOCIAL ICONS-->
+                        <figure class="ts-social-icons mb-4">
+                            <a href="#" class="mr-3">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="mr-3">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="mr-3">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                            <a href="#" class="mr-3">
+                                <i class="fab fa-slack"></i>
+                            </a>
+                            <a href="#" class="mr-3">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </figure>
+
+                        <!--TITLE -->
+                        <h1>Welcome To Lumione Pictures 
+                    
+                        </h1>
+                        <h1 class="ts-bubble-border">
+                            <span class="ts-title-rotate">
+                                <span class="active">One Light</span>
+                                <span>One Vision</span>
+                                <span>One Story</span>
+                            </span>
+                        </h1>
+
+                    </div>
+                    <!--end col-md-8-->
+                </div>
+                <!--end row-->
+                <a href="#my-services" class="ts-btn-effect position-absolute ts-bottom__0 ts-left__0 ts-scroll ml-3 mb-3">
+                    <span class="ts-visible ts-circle__sm rounded-0 ts-bg-primary">
+                        <i class="fa fa-arrow-down text-white"></i>
+                    </span>
+                    <span class="ts-hidden ts-circle__sm rounded-0">
+                        <i class="fa fa-arrow-down text-white"></i>
+                    </span>
+                </a>
+
+            </div>
+            <!--end container-->
+            <!--END HERO CONTENT ************************************************************************************-->
+
+            <!--HERO BACKGROUND *************************************************************************************-->
+            <!-- Pindahkan ke luar div ts-background -->
+<div class="ts-background">
+  <div class="ts-background">
+  <!-- Pastikan ada id="myVideo" dan tetap gunakan muted di awal agar autoplay jalan -->
+  <video autoplay muted loop playsinline id="myVideo" class="video-bg">
+    <source src="assets/img/upntv.mp4" type="video/mp4">
+    Browser Anda tidak mendukung tag video.
+  </video>
+  <!-- Tombol Unmute Melayang -->
+  <button id="unmuteBtn" class="audio-control-btn">
+    <span class="icon">🔊</span> <span class="text">Aktifkan Suara</span>
+  </button>
+</div>
+
+<!-- Script JavaScript ditaruh sebelum tag penutup </body> -->
+<script>
+  const video = document.getElementById("myVideo");
+  const btn = document.getElementById("unmuteBtn");
+  const btnIcon = btn.querySelector(".icon");
+  const btnText = btn.querySelector(".text");
+
+  btn.addEventListener("click", function() {
+    if (video.muted) {
+      video.muted = false;
+      btnIcon.innerText = "🔇";
+      btnText.innerText = "Matikan Suara";
+      btn.classList.add("is-active");
+    } else {
+      video.muted = true;
+      btnIcon.innerText = "🔊";
+      btnText.innerText = "Aktifkan Suara";
+      btn.classList.remove("is-active");
+    }
+  });
+</script>
+
+</div>
+   <!-- Kosongkan atau biarkan dulu -->
+</div>
+
+            <!--END HERO BACKGROUND *********************************************************************************-->
+
+        </div>
+        <!--end #hero-->
+
+        <!--*********************************************************************************************************-->
+        <!--************ CONTENT ************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <main id="ts-content">
+
+            <!--MY SERVICES ***********************************************************************************-->
+            <section id="my-services" class="ts-block ts-xs-text-center pb-0">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2>About Us</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row justify-content-center">
+                        <div class="col-sm-6 col-md-4 col-xl-6 mx-auto">
+                            <div class="ts-item text-center" data-animate="ts-fadeInUp">
+                                <div class="ts-item-content">
+                                    <div class="ts-item-header">
+                                        <figure class="icon">
+                                            <img src="assets/img/Logo x100.png" alt="">
+                                        </figure>
+                                        <!--end icon-->
+                                    </div>
+                                    <!--end ts-item-header-->
+                                    <div class="ts-item-body">                          
+                                        <h4>Lumione Pictures</h4>
+                                        <p class="mb-0">
+                                            
+                                        </p>
+                                    </div>
+                                    <!--end ts-item-body-->
+                                    <div class="ts-item-footer">
+                                        <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect">
+                                            <span>Check Out</span>
+                                        </a>
+                                    </div>
+                                    <!--end ts-item-footer-->
+                                </div>
+                                <!--end ts-item-content-->
+                            </div>
+                            <!--end ts-item-->
+                        </div>
+                        <!--end col-xl-4-->
+                                    <!--end ts-item-footer-->
+                                </div>
+                                <!--end ts-item-content-->
+                            </div>
+                            <!--end ts-item-->
+                        </div>
+            </section> 
+            <!--END MY SERVICES *************************************************************************************-->
+
+            <section id="about-me" class="ts-block pb-4">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2>Contact Information</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row ts-align__vertical">
+                        <div class="col-md-6">
+                            <img src="assets/img/Foto Visi Misi.jpg" alt="" class="mw-100 mb-5">
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="ts-bubble-border">Contact Us</h4>
+                            <p>
+                                Here are our contact details and social media.
+                            </p>
+                            <dl class="ts-column-count-2">
+                                <dt>Company Name:</dt>
+                                <dd>PT Lumione Pictures Indonesia</dd>
+                                <dt>Phone Number:</dt>
+                                <dd>+62 031-7451242 </dd>
+                                <dt>Email:</dt>
+                                <dd>info@lumionepictures.com</dd>
+                                <dt>Instagram:</dt>
+                                <dd>@lumionepictures</dd>
+                            </dl>
+                            <hr class="ts-hr-light mb-5">
+                            <a href="#contact" class="ts-btn-effect mr-2">
+                                <span class="ts-visible btn btn-primary ts-btn-arrow">Contact Us</span>
+                                <span class="ts-hidden btn btn-primary ts-btn-arrow" data-bg-color="#d44729">Click Here</span>
+                            </a>
+                            <!--<a href="#contact" class="btn btn-primary ts-btn-arrow mr-2">Contact Me</a>-->
+                            <!--<a href="#contact" class="btn btn-outline-light ts-btn-border-light">-->
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <!--end row-->
+                </div>
+            </section>
+
+            <section class="ts-block">
+                <div class="container">
+                    <div class="text-center px-5 pt-5 position-relative">
+                        <h3 class="my-3">
+                            Let's collaborate with us!
+                        </h3>
+                        <a href="#contact" class="btn btn-primary mr-2 ts-push-down__50 ts-has-talk-arrow">Contact Us!</a>
+                        <div class="ts-background ts-opacity__20" data-bg-image="assets/img/bg-keyboard.jpg"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="my-skills" class="ts-block pb-5">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2>Why Chose US</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <h4>Every Day is a  New Challenge</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <li class="mb-2">🎬 Experienced Team — Didukung crew produksi yang berpengalaman dalam filmmaking dan komunikasi.</li>
+                            <li class="mb-2">💡 Creative & Collaborative — Mengutamakan proses kolaboratif dengan klien, mulai dari pengembangan ide hingga produksi.</li>
+                            <li class="mb-2">🏆 Proven Achievement — Telah menghasilkan lebih dari 40 produksi dan meraih 14 penghargaan festival dan awards.</li>
+                            <li class="mb-2">🌎 Professional & Competitive — Menghasilkan karya visual berkualitas yang mampu bersaing di pasar global.</li>
+                            <li class="mb-2">📱 All-in-One Production — Menyediakan layanan lengkap mulai dari pre-production, production, post-production, hingga distribution & promotion.</li>
+                             <h4>Our Services</h4>
+                            <li class="mb-2">🎬 Film & Video Production</li>
+                            <li class="mb-2">📹 Commercial & Corporate Video</li>
+                            <li class="mb-2">🎨 Creative Content</li>
+                            <li class="mb-2">✂️ Video Editing & Post-Production</li>
+                            <li class="mb-2">🎞️ Animation & VFX</li>
+                            <li class="mb-2">📣 Digital & Social Media Content</li>
+                            <a href="#contact" class="btn btn-outline-light mb-5">Contact Me</a>
+                        </div>
+                        <!--end col-md-6-->
+                        <div class="col-md-6">
+                            <div class="progress" data-progress-width="100%">
+                                <h5 class="ts-progress-title">Editing</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                            <div class="progress" data-progress-width="95%">
+                                <h5 class="ts-progress-title">Cinematography</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                            <div class="progress" data-progress-width="90%">
+                                <h5 class="ts-progress-title">Copywriting</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                            <div class="progress" data-progress-width="80%">
+                                <h5 class="ts-progress-title">Visual Effect</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                        </div>
+                        <!--end col-md-6-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+
+            <section class="ts-block pb-5" id="portfolio">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>Our Project</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="card-columns ts-gallery ts-column-count-4">
+                        <a href="assets/img/img-work-01.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Branding</h6>
+                                <h4>Pehaz</h4>
+                            </div>
+                            <a href="https://wijayaputra.sch.id/smk/"> <img src="assets/img/img-work-01.png" class="card-img" alt=""></a>
+                            
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/img-work-02.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Webdesign</h6>
+                                    <h4>Carilo</h4>
+                                </div>
+                                <a href="https://wijayaputra.sch.id/smk/"> <img src="assets/img/img-work-01.png" class="card-img" alt=""></a>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/img-work-03.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/img-work-03.png" class="card-img" alt="">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Typography</h6>
+                                    <h4>Kali</h4>
+                                </div>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/img-work-04.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/img-work-04.png" class="card-img" alt="">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Identity</h6>
+                                    <h4>Purity</h4>
+                                </div>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/img-work-05.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/img-work-05.png" class="card-img" alt="">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Coding</h6>
+                                    <h4>SawMill</h4>
+                                </div>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/img-work-06.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/img-work-06.png" class="card-img" alt="">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Webdesign</h6>
+                                    <h4>Browar</h4>
+                                </div>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/img-work-07.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/img-work-07.png" class="card-img" alt="">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Experiment</h6>
+                                    <h4>Wood Tables</h4>
+                                </div>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/img-work-08.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/img-work-08.png" class="card-img" alt="">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Product Design</h6>
+                                    <h4>Air Purifier</h4>
+                                </div>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/img-work-10.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/img-work-10.png" class="card-img" alt="">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">App Developing</h6>
+                                    <h4>Boombox</h4>
+                                </div>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/img-work-11.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/img-work-11.png" class="card-img" alt="">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">3D Art</h6>
+                                    <h4>The Deer</h4>
+                                </div>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/img-work-09.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/img-work-09.png" class="card-img" alt="">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50">Rebranding</h6>
+                                    <h4>Dafont</h4>
+                                </div>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                    </div>
+                    <!--end ts-gallery-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--end portfolio-->
+
+            <section class="ts-block" data-bg-image="assets/img/bg-man-sitting.jpg">
+                <div class="container ts-promo-numbers">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="ts-promo-number text-center">
+                                <figure class="odometer" data-odometer-final="43">0</figure>
+                                <h5>Clients</h5>
+                            </div>
+                            <!--end ts-promo-number-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-md-3">
+                            <div class="ts-promo-number text-center">
+                                <figure class="odometer" data-odometer-final="68">0</figure>
+                                <h5>Projects</h5>
+                            </div>
+                            <!--end ts-promo-number-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-md-3">
+                            <div class="ts-promo-number text-center">
+                                <figure class="odometer" data-odometer-final="20">0</figure>
+                                <h5>Awards</h5>
+                            </div>
+                            <!--end ts-promo-number-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-md-3">
+                            <div class="ts-promo-number text-center">
+                                <figure class="odometer" data-odometer-final="10">0</figure>
+                                <h5>Years Experience</h5>
+                            </div>
+                            <!--end ts-promo-number-->
+                        </div>
+                        <!--end col-md-3-->
+                    </div>
+                </div>
+            </section>
+            <!--end ts-block-->
+
+            <section id="testimonials" class="ts-block text-center pb-5">
+                <div class="container">
+                    <div class="ts-title">
+                        <h2>Testimonials</h2>
+                    </div>
+                    <!--end ts-title-->
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="owl-carousel" data-owl-dots="1" data-owl-loop="1" data-animate="ts-fadeInUp">
+                                <div class="slide mb-5">
+                                    <figure class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow">
+                                        <i class="fa fa-quote-right"></i>
+                                    </figure>
+                                    <p class="ts-h5">
+                                        “Lumione sangat terbuka terhadap ide dan masukan dari kami. 
+                                        Proses produksinya terasa seperti kolaborasi, 
+                                        sehingga hasil akhirnya benar-benar sesuai dengan visi yang kami inginkan.”
+                                    </p>
+                                    <div class="ts-circle__lg mb-3" data-bg-image="assets/img/Orang2.png"></div>
+                                    <h5>Dadan</h5>
+                                    <h6 class="ts-opacity__40">Pertamina</h6>
+                                </div>
+                                <!--end slide-->
+                                <div class="slide mb-5">
+                                    <figure class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow">
+                                        <i class="fa fa-quote-right"></i>
+                                    </figure>
+                                    <p class="ts-h5">
+                                       “Kami sangat puas dengan hasil produksinya. 
+                                       Konsep yang diberikan kreatif, prosesnya terarah, dan tim Lumione mampu menyesuaikan diri dengan kebutuhan proyek.”
+                                    </p>
+                                    <div class="ts-circle__lg mb-3" data-bg-image="assets/img/Orang1.png"></div>
+                                    <h5>Alvina</h5>
+                                    <h6 class="ts-opacity__40">PT. Sukses Selalu</h6>
+                                </div>
+                                <!--end slide-->
+                            </div>
+                            <!--end owl-carousel-->
+                        </div>
+                        <!--end col-md-8-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--end #testimonials ts-block-->
+
+            <!--LOGOS ***********************************************************************************************-->
+            <section id="partners" class="ts-block py-4">
+                <!--container-->
+                <div class="container">
+                    <!--block of logos-->
+                    <div class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners py-3">
+                        <a href="#">
+                            <img src="assets/img/Pertamina.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/BUMN.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/F1.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/Kai.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="assets/img/Fifa.png" alt="">
+                        </a>
+                    </div>
+                    <!--end logos-->
+                </div>
+                <!--end container-->
+            </section>
+            <!--END LOGOS *******************************************************************************************-->
+
+        </main>
+        <!--end #content-->
+
+        <!--*********************************************************************************************************-->
+        <!--************ FOOTER *************************************************************************************-->
+        <!--*********************************************************************************************************-->
+        <footer id="ts-footer" class="mt-5">
+
+            <section id="contact" class="ts-block ts-separate-bg-element" data-bg-image="assets/img/bg-man-wall.jpg" data-bg-image-opacity=".1">
+                <div class="container">
+                    <div class="ts-title text-center">
+                        <h2 class="ts-bubble-border">Get In Touch</h2>
+                    </div>
+                    <div class="row ts-xs-text-center ">
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp">
+                            <img src="assets/img/Maps.png" class="mb-4" alt="">
+                            <h5>Address</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0">Jl. Rungkut Madya, Gn. Anyar</figure>
+                                <figure>Kec. Gn. Anyar, Surabaya, Jawa Timur 60294</figure>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".1s">
+                            <img src="assets/img/Phone.png" class="mb-4" alt="">
+                            <h5>Phone</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0">+62 031-7451242</figure>
+                                <figure>+62 821-3145-7891</figure>
+                                <a href="https://wa.me/62082131460912">Call Now</a>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".2s">
+                            <img src="assets/img/Mail.png" class="mb-4" alt="">
+                            <h5>Email</h5>
+                            <div class="ts-opacity__50">
+                                <figure class="mb-0">info@lumionepictures.com</figure>
+                                <figure>support@lumionepictures.com</figure>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!--end col-md-3-->
+                        <div class="col-sm-6 col-md-3 mb-4" data-animate="ts-fadeInUp" data-delay=".3s">
+                            <img src="assets/img/Instagram.png" class="mb-4" alt="">
+                            <h5>Instagram</h5>
+                            <div class="ts-opacity__50">
+                                <figure>@lumionepictures</figure>
+                            </div>
+                            <!--end ts-opacity__50-->
+                        </div>
+                        <!--end col-md-3-->
+                    </div>
+                    <!--end row-->
+
+                    <div class="pt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3>Let’s Connect</h3>
+                                <div class="ts-column-count-sm-2">
+                                    <a href="#" class="mb-3 d-flex text-black ts-align__vertical">
+                                    <span class="ts-circle__xs border border-black ts-border-light mr-4">
+                                        <i class="fab fa-twitter"></i>
+                                    </span>
+                                        <span>Twitter</span>
+                                    </a>
+                                    <!--end link-->
+                                    <a href="https://www.instagram.com/lumionepicturesid?igsi=MTZ0OW5venFsbmx3cw%3D%3D" target="_blank" class="mb-3 d-flex text-black ts-align__vertical">
+                                    <span class="ts-circle__xs border border-black
+                                     ts-border-light mr-4">
+                                        <i class="fab fa-instagram"></i>
+                                    </span>
+                                    <span>Instagram</span>
+                                    </a>
+                                    </a>
+                                    <!--end link-->
+                                    <a href="#" class="mb-3 d-flex text-black ts-align__vertical">
+                                    <span class="ts-circle__xs border border-black ts-border-light mr-4">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </span>
+                                        <span>Pinterest</span>
+                                    </a>
+                                    <!--end link-->
+                                
+                                    <!--end link-->
+                                </div>
+                            </div>
+                            <!--end col-md-4-->
+                            <div class="col-md-8">
+                                <h3>Send Me a Message</h3>
+                                <form id="form-contact" method="post" class="clearfix ts-form ts-form-email" data-php-path="assets/php/email.php">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-name">Name *</label>
+                                                <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Name" required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-6 col-sm-6 -->
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="form-group">
+                                                <label for="form-contact-email">Email *</label>
+                                                <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Email" required>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-6 col-sm-6 -->
+                                    </div>
+                                    <!--end row -->
+                                    <div class="form-group">
+                                        <label for="form-contact-subject">Subject *</label>
+                                        <input type="email" class="form-control" id="form-contact-subject" name="subject" placeholder="Subject" required>
+                                    </div>
+                                    <!--end form-group -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="form-contact-message">Message *</label>
+                                                <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Message" required></textarea>
+                                            </div>
+                                            <!--end form-group -->
+                                        </div>
+                                        <!--end col-md-12 -->
+                                    </div>
+                                    <!--end row -->
+                                    <div class="form-group clearfix">
+                                        <button type="submit" class="btn btn-primary float-right ts-btn-arrow" id="form-contact-submit">Send a Message</button>
+                                    </div>
+                                    <!--end form-group -->
+                                    <div class="form-contact-status"></div>
+                                </form>
+                                <!--end form-contact -->
+                            </div>
+                        </div>
+                        <!--end row-->
+                    </div>
+                </div>
+                <!--end container-->
+            </section>
+            <!--end #contact-->
+
+            <div class="text-dark bg-white">
+                <div class="container py-3 position-relative">
+                    <small>© 2026 PT Lumione Pictures Indonesia. All rights reserved.</small>
+                    <a href="#page-top" class="ts-circle__xs rounded-0 bg-dark position-absolute ts-right__0 ts-top__0 ts-push-up__50 ts-scroll">
+                        <i class="fa fa-arrow-up text-white"></i>
+                    </a>
+                </div>
+            </div>
+
+        </footer>
+        <!--end #footer-->
+
+    </div>
+    <!--end page-->
+
+    <!-- Modal -->
+    <!-- MODAL POPUP CONTENT (3 SLIDE CAROUSEL SAMA TATA LETAK LOGO) -->
+<div class="modal fade text-dark" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content border-0 rounded-0">
+      
+      <!-- Modal Header -->
+      <div class="modal-header bg-light px-5 pt-4 pb-4 position-relative">
+        <div class="ts-title mb-0 d-flex align-items-center">
+          <figure class="ts-circle__md bg-dark rounded-0 mb-0 mr-3 d-inline-block">
+            <img src="assets/img/Logo x100.png" alt="Lumione Logo" style="max-height: 40px;">
+          </figure>
+          <h4 class="mb-0 font-weight-bold">Lumione Pictures</h4>
+        </div>
+        <button type="button" class="close position-absolute ts-top__0 ts-right__0 m-3" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" class="text-dark">&times;</span>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body p-5">
+        
+        <div class="owl-carousel" data-owl-dots="1" data-owl-nav="1">
+          
+          <!-- ================= HALAMAN 1: ABOUT, VISION & MISSION ================= -->
+          <div class="slide">
+            <h5 class="mb-4 font-weight-bold text-muted">Filosofi Logo</h5>
+            <div class="container-fluid p-0">
+              <div class="row align-items-start">
+                
+                <!-- Kolom Kiri: Logo -->
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                  <img src="assets/img/Logo x100.png" alt="Lumione Pictures" class="img-fluid" style="max-width: 200px;">
+                </div>
+
+                <!-- Kolom Kanan: Teks -->
+                <div class="col-md-8">
+                  <h4 class="mb-3 font-weight-bold">Lumione Pictures</h4>
+                  <p class="text-secondary" style="line-height: 1.6;">                    
+                  </p>
+                  <p class="text-secondary" style="line-height: 1.6;">
+                  </p>
+                  
+                  <hr class="my-4">
+
+                  <h6 class="font-weight-bold"></h6>
+                  <ul class="pl-3 text-secondary">
+                    <li></li>
+                  </ul>
+
+                  <hr class="my-4">
+
+                  <h6 class="font-weight-bold">Arti Logo</h6>
+                  <ol class="pl-3 text-secondary">
+                    <li class="mb-2">Tulisan Lumi menggunakan jenis font script bertipe brush, memiliki arti bahwa hasil dari imajinasi itu indah nan luwes, tidak terikat pada aturan yang mengikat dan tertuang dalam bentuk tulisan yang dinamis. </li>
+                    <li class="mb-2">Tulisan One menggunakan jenis font serif italic, memiliki arti elegant, one/satu merepresentasikan seluruh departemen dan client tetap bekerja dengan cara yang elegan dan profesional selaras dengan visi & misi perusahaan. </li>
+                    <li class="mb-2">Tulisan Pictures menggunakan jenis font serif, memiliki arti bahwa perusahaan ini mengedepankan hasil yang indah, elegan, spektakuler dengan berlandaskan pada visi & misi perusahaan tentunya. </li>
+                    <li class="mb-2">Bentuk kuas, merepresentasikan alat yang digunakan dalam menulis naskah, naskah yang indah merupakan naskah yang diciptakan melalui imajinasi alam bawah sadar dan dituangkan dalam bentuk tulisan di atas kertas nirwana. </li>
+                    <li class="mb-2">Bentuk clapper, merepresentasikan alat petunjuk ketika produksian, diharapkan buah hasil cipta perusahaan tidak hanya dinikmati oleh khalayak melainkan dapat menjadi pedoman dan referensi kreator lain dalam menciptakan karya.</li>
+                    <li class="mb-2">Bentuk bangunan yang miring ke kanan, seluruh departemen dan client (yang diajak produksian) saling bahu-membahu, sokong menyokong dalam setiap produksian dan tetap menjalankannya sesuai dengan visi & misi perusahaan Lumione Pictures.</li>
+                  </ol>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- ================= HALAMAN 2: OUR SERVICES & PRODUCTION PROCESS ================= -->
+          <div class="slide">
+            <h5 class="mb-4 font-weight-bold text-muted">Festival "Lumione de Lumière"</h5>
+            <div class="container-fluid p-0">
+              <div class="row align-items-start">
+                
+                <!-- Kolom Kiri: Logo (Sama seperti Slide 1) -->
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                  <img src="assets/img/Logo LL x100.png" alt="Lumione Pictures" class="img-fluid" style="max-width: 200px;">
+                </div>
+
+                <!-- Kolom Kanan: Teks Layanan & Proses -->
+                <div class="col-md-8">
+                  <h4 class="mb-3 font-weight-bold"></h4>
+                  
+                  <div class="row">
+                    <div class="col-12 mb-3">
+                      <h6 class="font-weight-bold text-dark"></h6>
+                      <ul class="list-unstyled text-secondary pl-0 mt-2 mb-0">
+                        <li class="mb-1"></li>
+                        <li class="mb-1"></li>
+                        <li class="mb-1"></li>
+                        <li class="mb-1"></li>
+                        <li class="mb-1"></li>
+                        <li class="mb-1"></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <hr class="my-3">
+
+                  <div class="row">
+                    <div class="col-12">
+                      <h6 class="font-weight-bold text-dark"></h6>
+                      
+                      <strong class="d-block mt-2 text-dark"></strong>
+                      <p class="small text-secondary mb-2"></p>
+
+                      <strong class="d-block text-dark"></strong>
+                      <p class="small text-secondary mb-2"></p>
+
+                      <strong class="d-block text-dark"></strong>
+                      <p class="small text-secondary mb-2"></p>
+
+                      <strong class="d-block text-dark"></strong>
+                      <p class="small text-secondary mb-0"></p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- ================= HALAMAN 3: WHY CHOOSE US & TESTIMONIAL ================= -->
+          <div class="slide">
+            <h5 class="mb-4 font-weight-bold text-muted">Vision & Mission</h5>
+            <div class="container-fluid p-0">
+              <div class="row align-items-start">
+                
+                <!-- Kolom Kiri: Logo (Sama seperti Slide 1) -->
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                  <img src="assets/img/Logo x100.png" alt="Lumione Pictures" class="img-fluid" style="max-width: 200px;">
+                </div>
+
+                <!-- Kolom Kanan: Teks Keunggulan & Testimoni -->
+                <div class="col-md-8">
+                  <h4 class="mb-3 font-weight-bold">Vision</h4>
+                  
+                  <ul class="list-unstyled text-secondary pl-0 mt-2 mb-3 medium">
+                    <li class="mb-2"> Menjadi rumah produksi film yang melahirkan karya-karya besar, bermakna, berkualitas, dan mampu bersaing di pasaran global dengan kualitas sumber daya manusia yang profesional.</li>
+                  </ul>
+
+                  <hr class="my-4">
+
+                  <h6 class="font-weight-bold text-dark mb-3">Mission</h6>
+                  <ul class="list-unstyled text-secondary pl-0 mt-2 mb-3 medium">
+                    <li class="mb-2">1. Mengembangkan sumber daya manusia yang kreatif, kompeten, profesional yang mampu beradaptasi dengan perkembangan industri kreatif.</li>
+                    <li class="mb-2">2. Menciptakan proses produksi kolaboratif dengan melibatkan klien dalam rangkaian proses dari pengembangan ide hingga produksi.</li>
+                    <li class="mb-2">3. Menghasilkan karya visual yang kompetitif dengan mengutamakan kreativitas dan nilai autentik sehingga mampu bersaing di kancah internasional.</li>
+                    <li class="mb-2">4. Membangun lingkungan kerja yang komunikatif dan suportif. Setiap anggota memiliki ruang dalam berkontribusi, berkembang, dan menghasilkan karya terbaik.</li>
+                    <li class="mb-2">5. Mendorong terciptanya kompetisi sehat dan berdaya saing melalui Festival Tahunan "Lumione de Lumière" sebagai wadah pengembangan talenta, kreativitas, dan karya audiovisual.</li>
+                  </ul>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end owl-carousel -->
+      </div>
+    </div>
+  </div>
+</div>
+                                    <!--end col-md-8-->
+                                </div>
+                                <!--end row-->
+                            </div>
+                            <!--end container-fluid-->
+                        </div>
+                        <!--end slide-->
+                                    <!--end col-md-8-->
+                                </div>
+                                <!--end row-->
+                            </div>
+                            <!--end container-fluid-->
+                        </div>
+                        <!--end slide-->
+                    </div>
+                    <!--end owl-carousel-->
+                </div>
+                <!--end modal-body-->
+            </div>
+            <!--end modal-content-->
+        </div>
+        <!--end modal-dialog-->
+    </div>
+    <!--end modal-->
+
+	<script src="assets/js/custom.hero.js"></script>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="assets/js/isInViewport.jquery.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/scrolla.jquery.min.js"></script>
+	<script src="assets/js/jquery.validate.min.js"></script>
+	<script src="assets/js/jquery-validate.bootstrap-tooltip.min.js"></script>
+	<script src="assets/js/odometer.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+</html>
